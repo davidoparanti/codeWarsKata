@@ -10,5 +10,6 @@ class PrimePreoccupy {
         return true;
     }
 
+
     
 }
