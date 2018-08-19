@@ -8,7 +8,6 @@ class Solve10 {
 
     static int[] solve10(){
         int fac10[] = new int[2];
-        
         for(int x = 0; x < 10; x++) {
             for(int y = 1; y < 10; y++){
                 if( (factoria(x) + factoria(y)) == factoria(10)){

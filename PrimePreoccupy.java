@@ -12,11 +12,13 @@ class PrimePreoccupy {
 
    static int primePreoccupy(int n) {
         int number = 0;
+        int first = 0;
        for(int i = n; i < Integer.MAX_VALUE; i++) {
            if(isPrime(i) == 1) {
               if(i % 10 == 9){
+                first = i;
                   number = i;
-                  break;
+                
               };
            }
        }
